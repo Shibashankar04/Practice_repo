@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5207" started-at="2022-08-03T17:30:32Z" finished-at="2022-08-03T17:30:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5207" started-at="2022-08-03T17:30:32Z" finished-at="2022-08-03T17:30:37Z">
+      <class name="test.LaunchBU">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:test.LaunchBU@2aa3cd93]" name="openBrowser" is-config="true" duration-ms="10173" started-at="2022-08-03T17:30:22Z" finished-at="2022-08-03T17:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="getLog()[pri:0, instance:test.LaunchBU@2aa3cd93]" name="getLog" is-config="true" duration-ms="119" started-at="2022-08-03T17:30:32Z" finished-at="2022-08-03T17:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLog -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:test.LaunchBU@2aa3cd93]" name="startTestCase" is-config="true" duration-ms="26" started-at="2022-08-03T17:30:32Z" finished-at="2022-08-03T17:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.LaunchBU.buHomepage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="buHomepage()[pri:0, instance:test.LaunchBU@2aa3cd93]" name="buHomepage" duration-ms="4990" started-at="2022-08-03T17:30:32Z" finished-at="2022-08-03T17:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buHomepage -->
+        <test-method status="PASS" signature="endTestCase(java.lang.reflect.Method)[pri:0, instance:test.LaunchBU@2aa3cd93]" name="endTestCase" is-config="true" duration-ms="2" started-at="2022-08-03T17:30:37Z" finished-at="2022-08-03T17:30:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.LaunchBU.buHomepage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LaunchBU@2aa3cd93]" name="tearDown" is-config="true" duration-ms="708" started-at="2022-08-03T17:30:37Z" finished-at="2022-08-03T17:30:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LaunchBU -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

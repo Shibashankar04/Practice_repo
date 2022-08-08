@@ -1,0 +1,7 @@
+08-08-2022 09:59:54 Log4jdemo.java INFO  [main] base.Log4jdemo 26 - =============  openChrome  test started ============
+  08-08-2022 09:59:57 Log4jdemo.java INFO  [main] base.Log4jdemo 26 - Google home page launched
+  08-08-2022 09:59:57 Log4jdemo.java INFO  [main] base.Log4jdemo 26 - =============  openChrome  test ended ============
+  08-08-2022 09:59:57 Log4jdemo.java INFO  [main] base.Log4jdemo 26 - =============  buHomepage  test started ============
+  08-08-2022 10:00:02 Log4jdemo.java INFO  [main] base.Log4jdemo 26 - BU stging URL entered
+  08-08-2022 10:00:02 Log4jdemo.java INFO  [main] base.Log4jdemo 26 - =============  buHomepage  test ended ============
+  

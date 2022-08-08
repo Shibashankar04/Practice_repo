@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7758" started-at="2022-08-08T04:29:54Z" finished-at="2022-08-08T04:30:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7758" started-at="2022-08-08T04:29:54Z" finished-at="2022-08-08T04:30:02Z">
+      <class name="test.LaunchURL">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:test.LaunchURL@4d826d77]" name="openBrowser" is-config="true" duration-ms="9227" started-at="2022-08-08T04:29:45Z" finished-at="2022-08-08T04:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="getLog()[pri:0, instance:test.LaunchURL@4d826d77]" name="getLog" is-config="true" duration-ms="72" started-at="2022-08-08T04:29:54Z" finished-at="2022-08-08T04:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLog -->
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:test.LaunchURL@4d826d77]" name="startTestCase" is-config="true" duration-ms="4" started-at="2022-08-08T04:29:54Z" finished-at="2022-08-08T04:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.LaunchURL.openChrome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="openChrome()[pri:0, instance:test.LaunchURL@4d826d77]" name="openChrome" duration-ms="2537" started-at="2022-08-08T04:29:54Z" finished-at="2022-08-08T04:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method status="PASS" signature="endTestCase(java.lang.reflect.Method)[pri:0, instance:test.LaunchURL@4d826d77]" name="endTestCase" is-config="true" duration-ms="2" started-at="2022-08-08T04:29:57Z" finished-at="2022-08-08T04:29:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.LaunchURL.openChrome()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LaunchURL@4d826d77]" name="tearDown" is-config="true" duration-ms="730" started-at="2022-08-08T04:30:02Z" finished-at="2022-08-08T04:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LaunchURL -->
+      <class name="test.LaunchBU">
+        <test-method status="PASS" signature="startTestCase(java.lang.reflect.Method)[pri:0, instance:test.LaunchBU@61009542]" name="startTestCase" is-config="true" duration-ms="1" started-at="2022-08-08T04:29:57Z" finished-at="2022-08-08T04:29:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.LaunchBU.buHomepage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="buHomepage()[pri:0, instance:test.LaunchBU@61009542]" name="buHomepage" duration-ms="5124" started-at="2022-08-08T04:29:57Z" finished-at="2022-08-08T04:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buHomepage -->
+        <test-method status="PASS" signature="endTestCase(java.lang.reflect.Method)[pri:0, instance:test.LaunchBU@61009542]" name="endTestCase" is-config="true" duration-ms="1" started-at="2022-08-08T04:30:02Z" finished-at="2022-08-08T04:30:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.LaunchBU.buHomepage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTestCase -->
+      </class> <!-- test.LaunchBU -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
